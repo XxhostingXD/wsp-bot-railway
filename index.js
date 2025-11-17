@@ -61,7 +61,7 @@ async function connectToWhatsApp() {
   // Pedir Pairing Code después de unos segundos
   setTimeout(async () => {
     try {
-      const phone = "51XXXXXXXXX"; // <-- PONGA AQUÍ SU NÚMERO, EJ: 51923880085
+      const phone = "51923880085"; // <-- PONGA AQUÍ SU NÚMERO, EJ: 51923880085
       console.log("📨 Solicitando código de emparejamiento...");
 
       const code = await sock.requestPairingCode(phone);
